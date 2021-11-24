@@ -10,6 +10,7 @@ class Indicator(object):
     FIELD_MAP = {
         "attributes" : "attributes",
         "comments" : "comments",
+        "exists" : "exists",
         "iid" : "iid",
         "indicator" : "indicator",
         "mapretired" : "mapretired",
@@ -31,6 +32,7 @@ class Indicator(object):
     def __init__(self):
         self.attributes = ""
         self.comments = ""
+        self.exists = ""
         self.iid = ""
         self.indicator = ""
         self.mapretired = ""
